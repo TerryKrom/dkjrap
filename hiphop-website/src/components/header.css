@@ -1,0 +1,80 @@
+header {
+    width: 100%;
+    height: 3.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-color);
+    /* border-bottom: 1px solid #ffffff70; */
+}
+
+header nav,
+header div {
+    /* border: 1px solid #000; */
+    height: 100%;
+    flex: 1;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    transition: 0.2s linear;
+    padding: 7px;
+}
+
+.nav-links a {
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        width: calc(100% + 4px * 2);
+        height: calc(100% + 4px * 2);
+        top: calc(4px / -1);
+        left: calc(4px / -1);
+        background: linear-gradient(to right, #fff 0%, #fff 100%),
+            linear-gradient(to top, #fff 50%, transparent 50%),
+            linear-gradient(to top, #fff 50%, transparent 50%),
+            linear-gradient(to right, #fff 0%, #fff 100%),
+            linear-gradient(to left, #fff 0%, #fff 100%);
+        background-size: 100% 1px, 1px 200%, 1px 200%, 0% 1px, 0% 1px;
+        background-position: 50% 100%, 0% 0%, 100% 0%, 100% 0%, 0% 0%;
+        background-repeat: no-repeat no-repeat;
+        transition: transform 0.2s ease-in-out, background-position 0.2s ease-in-out,
+            background-size 0.2s ease-in-out;
+        transform: scaleX(0) rotate(180deg * 1);
+        transition-delay: 0.2s, 0.2s, 0s;
+    }
+
+    &:hover {
+        &:before {
+            background-size: 200% 1px, 1px 400%, 1px 400%, 55% 1px, 55% 1px;
+            background-position: 50% 100%, 0% 100%, 100% 100%, 100% 0%, 0% 0%;
+            transform: scaleX(1) rotate(180deg * 1);
+            transition-delay: 0s, 0.2s, 0.4s;
+        }
+    }
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 3rem;
+    font-family: "Cloister", sans-serif;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 3.5rem;
+    letter-spacing: 1px;
+}
