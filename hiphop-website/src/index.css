@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300;400;500;600&family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Teko:wght@300;400&display=swap');
 
 @font-face {
   font-family: "Cloister";
@@ -14,14 +14,18 @@
   --header-color: #050505;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Antonio', sans-serif;
-  font-weight: 600;
+  font-family: 'Teko', sans-serif;
+  /* font-weight: 400 !important; */
 }
 
-body{
+body {
   background-color: var(--background-color);
+}
+
+.body-page{
+  display: flex;
 }

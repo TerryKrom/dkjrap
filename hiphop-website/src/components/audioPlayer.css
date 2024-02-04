@@ -1,0 +1,31 @@
+.audio-player{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    flex: 1;
+}
+
+.song-title, .audio-player button{
+    color: #fff;
+}
+
+.song-title{
+    text-align: left;
+    /* border: 1px solid #fff; */
+    width: 150px;
+}
+
+.audio-player button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 100%;
+}
+
+button.disabled{
+    color: #606060;
+    cursor: default;
+}
