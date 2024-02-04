@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/header';
 import { Carousel } from '../components/carousel';
 import Navigation from '../components/navigation';
+import CardRow from '../components/cardRow';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <div className='page'>
                 <Header />
                 <Carousel />
+                <CardRow />
             </div>
         </div>
     );

@@ -13,7 +13,7 @@ const SongPlayer = () => {
   ]);
 
   const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   const handleTrackEnd = () => {
     // Avançar para a próxima faixa quando a atual terminar
@@ -59,7 +59,6 @@ const SongPlayer = () => {
   return (
     <div className='audio-player'>
       <AudioPlayer
-        autoPlay
         src={tracks[currentTrackIndex].src}
         onEnded={handleTrackEnd}
       />
