@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Teko:wght@300;400&display=swap');
 
-@font-face {
-  font-family: "Cloister";
-  src: url('./assets/CloisterBlack.ttf');
-}
-
 :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,7 +14,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Teko', sans-serif;
-  /* font-weight: 400 !important; */
+  transition: 0.2s linear;
 }
 
 body {

@@ -48,6 +48,10 @@ header div {
     margin: 0px 20px;
 }
 
+.social-links a:hover{
+    opacity: 0.7;
+}
+
 .subheader{
     background-color: #161616;
     width: 100%;

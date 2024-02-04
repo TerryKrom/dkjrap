@@ -1,11 +1,10 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
 import { Carousel as ReactCarousel } from "react-responsive-carousel";
-
 import "./carousel.css";
+
 import image1 from "../assets/banner01.png";
 import image2 from "../assets/banner02.png";
-import img1 from '../assets/wp-01.jpg'
+import img1 from '../assets/img01.jpg'
 // import image3 from "../assets/banner03.png";
 
 const slides = [

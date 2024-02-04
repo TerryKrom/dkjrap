@@ -2,14 +2,13 @@ import React, { useState } from 'react';
 import AudioPlayer from 'react-audio-player';
 import './audioPlayer.css';
 
-import song from '../assets/tracks/good-night.mp3';
-import song2 from '../assets/tracks/lofi-chill.mp3';
-import song3 from '../assets/tracks/rap-alem-das-letras-DKJ.mp3';
+import song1 from '../assets/tracks/rap-alem-das-letras-DKJ.mp3';
+import song2 from '../assets/tracks/guarda-o-sorriso-dkj.mp3';
 
 const SongPlayer = () => {
   const [tracks] = useState([
-    { src: song3, title: 'Rap Além das Letras - DKJ RAP' },
-    { src: song2, title: 'Song 2' },
+    { src: song1, title: 'Rap Além das Letras - DKJ RAP' },
+    { src: song2, title: 'Guarda o Sorriso - DKJ RAP' },
     // Adicione mais músicas conforme necessário
   ]);
 
