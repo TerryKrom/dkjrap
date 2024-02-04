@@ -30,7 +30,7 @@ header div {
     font-family: "Sedgwick Ave Display", sans-serif;
     color: #eee;
     text-decoration: none;
-    text-shadow: 2px 6px 9px rgba(255, 255, 255, 0.3);
+    text-shadow: 2px 6px 9px #eeeeee4d;
     margin-left: 10px;
 }
 
