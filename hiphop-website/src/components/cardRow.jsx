@@ -1,29 +1,19 @@
+// CardRow.jsx
 import React from 'react';
 import './cardRow.css';
 import MainCard from './mainCard';
-import img from '../assets/banners/img01.jpg';
+import MainCardsData from '../assets/cardData';
 
 const CardRow = () => {
-    return (
-        <div className="card-row">
-            <MainCard
-                img={img}
-                title={'Confira os melhores shows de DKJ RAP'}
-                text={'testendo o texto'} />
-            <MainCard
-                img={img}
-                title={'Confira os melhores shows de DKJ RAP'}
-                text={'testendo o texto'} />
-            <MainCard
-                img={img}
-                title={'Confira os melhores shows de DKJ RAP'}
-                text={'testendo o texto'} />
-            <MainCard
-                img={img}
-                title={'Confira os melhores shows de DKJ RAP'}
-                text={'testendo o texto'} />
-        </div>
-    );
-}
+  const cardsData = MainCardsData();
+
+  return (
+    <div className="card-row">
+      {cardsData.map((card, index) => (
+        <MainCard key={index} props={card} />
+      ))}
+    </div>
+  );
+};
 
 export default CardRow;
