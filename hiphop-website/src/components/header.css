@@ -34,6 +34,21 @@ header div {
     margin-left: 10px;
 }
 
+@media only screen and (max-width: 760px){
+    .logo a{
+        font-size: 1.5rem;
+    }
+    .separator{
+        display: none;
+    }
+    .logo h3{
+        font-size: 1rem;
+    }
+    .social-links a{
+        font-size: 0.8rem !important;
+    }
+}
+
 .social-links{
     /* border: 1px solid var(--primary-font-color); */
     display: flex;
@@ -60,6 +75,18 @@ header div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media only screen and (max-width: 620px){
+    .line{
+        display: none;
+    }
+    .social-links{
+        display: none;
+    }
+    .navigation{
+        display: none !important;
+    }
 }
 
 .line{
