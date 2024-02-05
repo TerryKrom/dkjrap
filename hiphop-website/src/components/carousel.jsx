@@ -3,7 +3,9 @@ import { Carousel as ReactCarousel } from "react-responsive-carousel";
 import "./carousel.css";
 
 import image1 from "../assets/banners/banner01.png";
-import img1 from '../assets/banners/img01.jpg'
+import image2 from '../assets/banners/banner02.png';
+
+// import img1 from '../assets/banners/img01.jpg'
 // import image3 from "../assets/banner03.png";
 
 const slides = [
@@ -15,7 +17,7 @@ const slides = [
     {
         title: "Confira já o novo lançamento",
         subtitle: "Ver Mais",
-        image: img1,
+        image: image2,
     },
     {
         title: "Let's Go",
@@ -33,6 +35,7 @@ const slides = [
         image: image1,
     },
 ];
+
 const handleMouseEnter = (element) => {
     element.classList.add('hover');
 }
@@ -50,6 +53,7 @@ export const Carousel = () => (
         swipeable={true}
         emulateTouch={true}
         // autoPlay={true}
+        // infiniteLoop={true}
     >
         {slides.map((slide, index) => (
             <div 
