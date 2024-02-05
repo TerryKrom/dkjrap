@@ -1,9 +1,10 @@
 .audio-player{
     height: 100%;
+    min-width: 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
+    margin: 10px 10px 10px 5px;
     flex: 1;
 }
 
@@ -13,8 +14,7 @@
 
 .song-title{
     text-align: left;
-    /* border: 1px solid #fff; */
-    width: 150px;
+    width: 175px;
 }
 
 .audio-player button{

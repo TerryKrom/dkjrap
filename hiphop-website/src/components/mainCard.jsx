@@ -6,9 +6,9 @@ const MainCard = ({props}) => {
         <div className="main-card">
             <img src={props.img} alt={props.title} />
             <div className="main-card-body">
-                <p>{props.date}</p>
-                <h2>{props.title}</h2>
-                <p>{props.text}</p>
+                <p className='card-date'>{props.date}</p>
+                <h2 className='card-title'>{props.title}</h2>
+                <p className='card-text'>{props.text}</p>
             </div>
         </div>
     );

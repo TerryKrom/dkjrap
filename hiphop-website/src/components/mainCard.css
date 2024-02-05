@@ -4,7 +4,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid #fff; */
     flex-direction: column;
 }
 
@@ -19,4 +18,8 @@
 
 .main-card-body h2{
     font-size: 2rem;
+}
+
+.card-date{
+    color: #707070;
 }

@@ -4,12 +4,15 @@ import './audioPlayer.css';
 
 import song1 from '../assets/tracks/rap-alem-das-letras-DKJ.mp3';
 import song2 from '../assets/tracks/guarda-o-sorriso-dkj.mp3';
+import song3 from '../assets/tracks/velas-e-oracao-dkj.mp3';
+import song4 from '../assets/tracks/o-veneno-da-serpente-dkj.mp3'
 
 const SongPlayer = () => {
   const [tracks] = useState([
     { src: song1, title: 'Rap Além das Letras - DKJ RAP' },
     { src: song2, title: 'Guarda o Sorriso - DKJ RAP' },
-    // Adicione mais músicas conforme necessário
+    { src: song3, title: 'Velas e Oração - DKJ RAP' },
+    { src: song4, title: 'O Veneno da Serpente - DKJ RAP' },
   ]);
 
   const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
@@ -29,8 +32,6 @@ const SongPlayer = () => {
       setIsPlaying(false)
     }
   };
-
-
 
   const handleNextTrack = (audio) => {
     setCurrentTrackIndex((prevIndex) => (prevIndex + 1) % tracks.length);

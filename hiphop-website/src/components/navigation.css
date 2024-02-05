@@ -1,6 +1,6 @@
 .navigation{
     width: 6rem;
-    height: 500px;
+    height: 100;
     background-color: var(--header-color);
     display: flex;
     flex-direction: column;
