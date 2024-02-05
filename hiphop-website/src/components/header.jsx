@@ -9,7 +9,7 @@ const Header = () => {
             <header>
                 <div className="logo">
                     <h2><Link to='/'>DKJ RAP</Link></h2>
-                    <h3>Rap além das Letras!</h3>
+                    <h3>Rap além das Letras</h3>
                 </div>
                 <div className="separator"></div>
                 <div className="social-links">
@@ -22,7 +22,6 @@ const Header = () => {
             </header>
             <div className="subheader">
                 <SongPlayer/>
-                {/* <div className="music-controls"></div> */}
                 <div className="line"></div>
             </div>
         </>
