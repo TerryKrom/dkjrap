@@ -25,13 +25,13 @@
 .react-carousel .control-dots .dot {
     box-shadow: none;
     background: transparent;
-    border: 1px solid #eee;
+    border: 1px solid var(--primary-font-color);
     width: 9px;
     height: 9px;
 }
 
 .dot.selected{
-    background-color: #eee !important;
+    background-color: var(--primary-font-color) !important;
 }
 
 .control-dots{
@@ -43,7 +43,7 @@
     display: block;
     height: 100%;
     width: 1px;
-    background-color: #eeefff80;
+    background-color: var(--primary-font-color);
     transform: translateX(20px);
 }
 .control-dots .dot:nth-child(1)::before{
@@ -51,7 +51,7 @@
     display: block;
     height: 100%;
     width: 1px;
-    background-color: #eeefff80;
+    background-color: var(--primary-font-color);
     transform: translateX(-15px);
 }
 
@@ -66,7 +66,7 @@
 }
 
 .image-wrapper.hover ~ .text h3{
-    border-bottom: 3px solid #eee;
+    border-bottom: 3px solid var(--primary-font-color);
 }
 
 .text h3{
@@ -95,7 +95,7 @@
     /* border: 1px solid red; */
     left: 60px;
     bottom: 75px;
-    color: #eee;
+    color: var(--primary-font-color);
     line-height: 3rem;
     cursor: pointer;
 }

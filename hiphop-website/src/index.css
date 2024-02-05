@@ -7,6 +7,8 @@
   -moz-osx-font-smoothing: grayscale;
   --background-color: #161616;
   --header-color: #050505;
+  --primary-font-color: #eee;
+  --secondary-font-color: #707070;
 }
 
 * {
@@ -20,7 +22,7 @@
 body {
   background-color: var(--background-color);
   overflow-x: hidden;
-  color: #eee;
+  color: var(--primary-font-color);
 }
 
 .body-page {

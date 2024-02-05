@@ -15,11 +15,11 @@ header div {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /* border: 1px solid #eee; */
+    /* border: 1px solid var(--primary-font-color); */
 }
 
 .logo h3{
-    color: #6d6d6d;
+    color: var(--secondary-font-color);
     margin-left: 1.5rem;
     font-size: 1.4rem;
     letter-spacing: 2px;
@@ -28,28 +28,29 @@ header div {
 .logo a {
     font-size: 2.2rem;
     font-family: "Sedgwick Ave Display", sans-serif;
-    color: #eee;
+    color: var(--primary-font-color);
     text-decoration: none;
-    text-shadow: 2px 6px 9px #eeeeee4d;
+    text-shadow: 2px 6px 9px var(--primary-font-color)eee4d;
     margin-left: 10px;
 }
 
 .social-links{
-    /* border: 1px solid #eee; */
+    /* border: 1px solid var(--primary-font-color); */
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .social-links a{
-    color: #eee;
+    color: var(--primary-font-color);
     text-decoration: none;
     font-size: 1.1rem;
     margin: 0px 20px;
+    transition: 0.1s linear;
 }
 
 .social-links a:hover{
-    opacity: 0.7;
+    color: var(--secondary-font-color);
 }
 
 .subheader{
