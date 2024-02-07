@@ -18,7 +18,7 @@ header div {
     /* border: 1px solid var(--primary-font-color); */
 }
 
-.logo h3{
+.logo h3 {
     color: var(--secondary-font-color);
     margin-left: 1.5rem;
     font-size: 1.4rem;
@@ -30,33 +30,36 @@ header div {
     font-family: "Sedgwick Ave Display", sans-serif;
     color: var(--primary-font-color);
     text-decoration: none;
-    text-shadow: 2px 6px 9px var(--primary-font-color)eee4d;
+    text-shadow: 2px 6px 9px var(--primary-font-color);
     margin-left: 10px;
 }
 
-@media only screen and (max-width: 760px){
-    .logo a{
+@media only screen and (max-width: 760px) {
+    .logo a {
         font-size: 1.5rem;
     }
-    .separator{
+
+    .separator {
         display: none;
     }
-    .logo h3{
+
+    .logo h3 {
         font-size: 1rem;
     }
-    .social-links a{
+
+    .social-links a {
         font-size: 0.8rem !important;
     }
 }
 
-.social-links{
+.social-links {
     /* border: 1px solid var(--primary-font-color); */
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.social-links a{
+.social-links a {
     color: var(--primary-font-color);
     text-decoration: none;
     font-size: 1.1rem;
@@ -64,11 +67,11 @@ header div {
     transition: 0.1s linear;
 }
 
-.social-links a:hover{
+.social-links a:hover {
     color: var(--secondary-font-color);
 }
 
-.subheader{
+.subheader {
     background-color: #161616;
     width: 100%;
     height: 2rem;
@@ -77,26 +80,69 @@ header div {
     align-items: center;
 }
 
-@media only screen and (max-width: 620px){
-    .line{
+.burger {
+    display: none;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    z-index: 99;
+    top: 13px;
+    right: 20px;
+}
+
+/* .burguer.m-open {
+    z-index: 99;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+} */
+
+.burger.m-open div:first-child {
+    transform: translateY(6px) rotate(45deg);
+}
+
+.burger.m-open div:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.m-open div:last-child {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+.burger .burguer-line {
+    width: 25px;
+    height: 3px;
+    background-color: var(--primary-font-color);
+    margin: 5px;
+    transition: all 0.2s ease;
+}
+
+@media only screen and (max-width: 620px) {
+    .line {
         display: none;
     }
-    .social-links{
+
+    .social-links {
         display: none;
     }
-    .navigation{
+
+    .navigation {
         display: none !important;
+    }
+
+    .burger {
+        display: block;
     }
 }
 
-.line{
-    background-color: #505050;
+.line {
+    background-color: var(--secondary-font-color);
     height: 1px;
     width: 100%;
     flex: 2;
     margin-right: 20px;
 }
 
-.music-controls{
+.music-controls {
     flex: 1;
 }

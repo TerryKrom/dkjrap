@@ -1,9 +1,16 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import './header.css';
 import SongPlayer from './audioPlayer';
+import Modal from './modal';
 
 const Header = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const handleBurguer = () => {
+        setIsOpen(!isOpen);
+    }
+
     return (
         <>
             <header>
@@ -19,13 +26,19 @@ const Header = () => {
                     <Link to="https://open.spotify.com/intl-pt/artist/3mek6ZbenYdDKuM2dRwcaI" target='_blank'> <span className="fa-brands fa-spotify"></span> </Link>
                     <Link to="https://facebook.com/DKJrap" target='_blank'> <span className="fa-brands fa-facebook"></span> </Link>
                 </div>
+                <div 
+                className={`burger ${isOpen ? 'm-open':' '}`} onClick={handleBurguer}>
+                    <div className="burguer-line"></div>
+                    <div className="burguer-line"></div>
+                    <div className="burguer-line"></div>
+                </div>
             </header>
             <div className="subheader">
                 <SongPlayer/>
                 <div className="line"></div>
             </div>
+            {isOpen ? <Modal isOpen={isOpen} setIsOpen={setIsOpen} /> : ''}
         </>
     );
 }
-
 export default Header;

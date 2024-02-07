@@ -3,12 +3,14 @@ import './cardRow.css';
 import MainCard from './mainCard';
 import MainCardsData from '../assets/cardData';
 
-const getDate = (date) => {
-  return parseInt(date.split('-')[0])
-}
+const getDate = (dateString) => {
+  const [day, month, year] = dateString.split('-').map(Number);
+  return new Date(year, month - 1, day); // O mês é baseado em zero no construtor Date
+};
 
 const CardRow = () => {
-  const cardsData = MainCardsData().sort((a,b) => getDate(b.date) - getDate(a.date));
+  const cardsData = MainCardsData().sort((a, b) => getDate(b.date) - getDate(a.date));
+
   return (
     <div className="card-row">
       {cardsData.map((card, index) => (

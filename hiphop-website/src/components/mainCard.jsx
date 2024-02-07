@@ -1,10 +1,26 @@
 import React from 'react';
 import './mainCard.css';
 
-const MainCard = ({props}) => {
+const MainCard = ({ props }) => {
+
+    const months = {
+        1: 'Jan',
+        2: 'Fev',
+        3: 'Mar',
+        4: 'Abr',
+        5: 'Mai',
+        6: 'Jun',
+        7: 'Jul',
+        8: 'Ago',
+        9: 'Set',
+        10: 'Out',
+        11: 'Nov',
+        12: 'Dec',
+    }
 
     const dateFixer = (date) => {
         let arrDate = date.split("-");
+        arrDate[1] = months[parseInt(arrDate[1])]
         return arrDate.join(' ')
     }
 
