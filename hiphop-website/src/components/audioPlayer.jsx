@@ -75,7 +75,7 @@ const SongPlayer = () => {
       <button onClick={() => handleNextTrack(document.querySelector('audio'))}>
         <span className="fa fa-forward-step"></span>
       </button>
-      <p className='song-title'>{tracks[currentTrackIndex].title}</p>
+      <marquee className='song-title'>{tracks[currentTrackIndex].title}</marquee>
     </div>
   );
 };

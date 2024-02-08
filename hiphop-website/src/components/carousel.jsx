@@ -17,7 +17,7 @@ const slides = [
         target: ''
     },
     {
-        title: "DKJ RAP: O veneno da serpente no YT!",
+        title: "DKJ RAP: O veneno da serpente no Youtube!",
         subtitle: "Confira Já",
         image: image2,
         src: 'https://www.youtube.com/watch?v=6GJUPvXF9A0',
