@@ -30,13 +30,13 @@ header div {
     font-family: "Sedgwick Ave Display", sans-serif;
     color: var(--primary-font-color);
     text-decoration: none;
-    text-shadow: 2px 6px 9px var(--primary-font-color);
+    text-shadow: 2px 2px 16px #eeeeee99;
     margin-left: 10px;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 768px) {
     .logo a {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     .separator {
@@ -48,7 +48,8 @@ header div {
     }
 
     .social-links a {
-        font-size: 0.8rem !important;
+        /* font-size: 0.9rem !important; */
+        margin: 0px 10px !important;
     }
 }
 

@@ -6,10 +6,30 @@ import Modal from './modal';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
     const handleBurguer = () => {
         setIsOpen(!isOpen);
     }
+
+    const handleResize = () => {
+        setIsMobile(window.innerWidth < 768);
+        // Feche o menu se a tela estiver cheia
+        if (!isMobile && isOpen) {
+          setIsOpen(false);
+        }
+      };
+    
+      useEffect(() => {
+        // Adicione um listener de redimensionamento quando o componente montar
+        window.addEventListener('resize', handleResize);
+    
+        // Remova o listener quando o componente desmontar
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, [isOpen, isMobile]);
+    
 
     return (
         <>
