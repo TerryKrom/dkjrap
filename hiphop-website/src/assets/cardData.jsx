@@ -1,6 +1,5 @@
-// cardData.js
-import img01 from '../assets/banners/img01.jpg';
-import img02 from '../assets/banners/img02.jpg';
+import img01 from '../assets/cardImages/img01.jpg';
+import img02 from '../assets/cardImages/img02.jpg';
 
 const MainCardsData = () => {
   const cardsData = [
@@ -15,7 +14,7 @@ const MainCardsData = () => {
         date: '07-01-2024',
         img: img02,
         title: 'DKJ RAP coloca ao ar música das antigas, relembre!',
-        text: 'Shows, eventos, melhores momentos tudo num só lugar',
+        text: 'O Veneno da Serpente, de 2003, relançada no youtube para relembrar o estilo "das antigas"',
         src: 'https://www.youtube.com/watch?v=6GJUPvXF9A0',
       },
       {

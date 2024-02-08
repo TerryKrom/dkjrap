@@ -56,7 +56,7 @@
 .react-carousel .slide img {
     width: 100%;
     height: 100%;
-    opacity: 0.5;
+    opacity: 0.47;
 }
 
 .react-carousel, .react-carousel-slide{
@@ -71,8 +71,14 @@
     border-bottom: 3px solid var(--primary-font-color);
 }
 
-.text h3{
+.text h3 {
     border-bottom: 3px solid transparent;
+}
+
+.text a{
+    font-size: 1.2rem;
+    color: var(--primary-font-color);
+    text-decoration: none;
 }
 
 .image-wrapper img{
