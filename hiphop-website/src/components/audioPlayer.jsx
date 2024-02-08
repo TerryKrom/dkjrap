@@ -6,6 +6,9 @@ import song1 from '../assets/tracks/rap-alem-das-letras-DKJ.mp3';
 import song2 from '../assets/tracks/guarda-o-sorriso-dkj.mp3';
 import song3 from '../assets/tracks/velas-e-oracao-dkj.mp3';
 import song4 from '../assets/tracks/o-veneno-da-serpente-dkj.mp3'
+import song5 from '../assets/tracks/bons-ventos-dkj.mp3';
+import song6 from '../assets/tracks/eu-imploro-dkj.mp3';
+import song7 from '../assets/tracks/nois-e-disciplina-dkj.mp3';
 
 const SongPlayer = () => {
   const [tracks] = useState([
@@ -13,6 +16,9 @@ const SongPlayer = () => {
     { src: song2, title: 'Guarda o Sorriso - DKJ RAP' },
     { src: song3, title: 'Velas e Oração - DKJ RAP' },
     { src: song4, title: 'O Veneno da Serpente - DKJ RAP' },
+    { src: song5, title: 'Bons Ventos - DKJ RAP' },
+    { src: song6, title: 'Eu Imploro - DKJ RAP' },
+    { src: song7, title: 'Nois é Disciplina - DKJ RAP' },
   ]);
 
   const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
@@ -35,8 +41,10 @@ const SongPlayer = () => {
 
   const handleNextTrack = (audio) => {
     setCurrentTrackIndex((prevIndex) => (prevIndex + 1) % tracks.length);
-    audio.play();
-    setIsPlaying(true)
+    setTimeout(() => {
+      audio.play();
+      setIsPlaying(true)
+    }, 1000)
   };
 
   const handlePreviousTrack = (audio) => {
@@ -75,7 +83,7 @@ const SongPlayer = () => {
       <button onClick={() => handleNextTrack(document.querySelector('audio'))}>
         <span className="fa fa-forward-step"></span>
       </button>
-      <marquee className='song-title'>{tracks[currentTrackIndex].title}</marquee>
+      <p className='song-title'>{tracks[currentTrackIndex].title}</p>
     </div>
   );
 };

@@ -28,7 +28,7 @@ const slides = [
         title: "Siga DKJ RAP no spotify!",
         subtitle: "Confira já",
         image: image3,
-        src: '',
+        src: 'https://open.spotify.com/intl-pt/artist/3mek6ZbenYdDKuM2dRwcaI',
         target: '_blank'
 
     },
