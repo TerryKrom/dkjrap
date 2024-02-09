@@ -23,6 +23,8 @@ body {
   background-color: var(--background-color);
   overflow-x: hidden;
   color: var(--primary-font-color);
+  max-width: 1500px;
+  margin: auto;
 }
 
 .body-page {

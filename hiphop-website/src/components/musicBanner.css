@@ -1,0 +1,32 @@
+.music-banner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20px 15px 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.music-banner div{
+    flex: 1;
+    min-width: 400px;
+}
+
+.mb-img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mb-img img{
+    opacity: 0.7;
+}
+
+.mb-text h2{
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+
+.mb-text{
+    display: flex;
+    flex-direction: column;
+}
