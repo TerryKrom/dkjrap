@@ -34,6 +34,8 @@ const Header = () => {
     return (
         <>
             <header>
+                <div className="center">
+
                 <div className="logo">
                     <h2><Link to='/'>DKJ RAP</Link></h2>
                     <h3>Rap além das Letras</h3>
@@ -52,10 +54,16 @@ const Header = () => {
                     <div className="burguer-line"></div>
                     <div className="burguer-line"></div>
                 </div>
+                </div>
+                
             </header>
             <div className="subheader">
+                <div className="center">
+
                 <SongPlayer/>
                 <div className="line"></div>
+                </div>
+                
             </div>
             {isOpen ? <Modal isOpen={isOpen} setIsOpen={setIsOpen} /> : ''}
         </>

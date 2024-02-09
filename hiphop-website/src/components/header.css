@@ -54,7 +54,6 @@ header div {
 }
 
 .social-links {
-    /* border: 1px solid var(--primary-font-color); */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -90,13 +89,6 @@ header div {
     top: 13px;
     right: 20px;
 }
-
-/* .burguer.m-open {
-    z-index: 99;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-} */
 
 .burger.m-open div:first-child {
     transform: translateY(6px) rotate(45deg);

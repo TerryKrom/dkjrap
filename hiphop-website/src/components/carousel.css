@@ -18,6 +18,7 @@
 .react-carousel {
     height: 100%;
     position: relative;
+    max-width: 1400px;
 }
 
 .react-carousel .control-dots .dot {

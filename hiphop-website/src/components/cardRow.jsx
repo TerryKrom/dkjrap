@@ -13,9 +13,13 @@ const CardRow = () => {
 
   return (
     <div className="card-row">
+      <div className="center">
+
       {cardsData.map((card, index) => (
         <MainCard key={index} props={card} />
       ))}
+      </div>
+      
     </div>
   );
 };
