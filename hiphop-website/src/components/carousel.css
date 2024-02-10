@@ -101,7 +101,7 @@
     align-items: flex-start;
     flex-direction: column;
     /* border: 1px solid red; */
-    left: 60px;
+    left: 30px;
     bottom: 75px;
     color: var(--primary-font-color);
     line-height: 3rem;

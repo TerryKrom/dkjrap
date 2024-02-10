@@ -57,6 +57,7 @@
 .main-card-body h2 {
     font-size: 2rem;
     text-align: justify;
+    line-height: 2.5rem;
 }
 
 .card-text {
