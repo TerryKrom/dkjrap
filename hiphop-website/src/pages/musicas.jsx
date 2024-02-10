@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/header';
 import Navigation from '../components/navigation';
 import MusicBanner from '../components/musicBanner';
+import Footer from '../components/footer';
 
 const Musicas = () => {
     return (
@@ -12,6 +13,7 @@ const Musicas = () => {
             <div className='page'>
                 <Header />
                 <MusicBanner />
+                <Footer/>
             </div>
         </div>
 

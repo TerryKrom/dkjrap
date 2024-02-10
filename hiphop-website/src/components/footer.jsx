@@ -18,7 +18,7 @@ const Footer = () => {
           <div class="links-column">
             <h2>Contato</h2>
             <Link to="">(13) 99116 1395</Link>
-            <Link to="">email@email.com</Link>
+            <Link to="">dkjrapnacional@gmail.com</Link>
             <Link to="">&nbsp;</Link>
           </div>
           <div class="links-column">
