@@ -11,6 +11,7 @@ const MainCardsData = () => {
       title: 'Confira: Melhores shows de DKJ RAP!',
       text: 'os mais icônicos shows e eventos da carreira de DKJ RAP tudo num so lugar!',
       src: '/shows',
+      target: ''
     },
     {
         date: '08-02-2024',
@@ -18,6 +19,7 @@ const MainCardsData = () => {
         title: 'DKJ RAP coloca ao ar música das antigas, relembre!',
         text: 'O Veneno da Serpente, de 2003, relançada no youtube para relembrar o estilo "das antigas"',
         src: 'https://www.youtube.com/watch?v=6GJUPvXF9A0',
+        target: '_blank'
       },
       {
         date: '07-02-2024',
@@ -25,6 +27,7 @@ const MainCardsData = () => {
         title: 'Confira a trajetória de DKJ RAP no Youtube!',
         text: 'Todas as músicas e albums da carreira de um dos maiores rappers da baixada santista.',
         src: 'https://youtube.com/@DkjRapNacional',
+        target: '_blank'
       },
       {
         date: '06-02-2024',
@@ -32,6 +35,7 @@ const MainCardsData = () => {
         title: 'Novo lançamento na área! "Só os Di Verdade"',
         text: 'Confira a mais nova música de DKJ RAP no youtube!',
         src: 'https://youtube.com/watch?v=y82Jgyrzjy4',
+        target: '_blank'
       },
     // Adicione mais objetos conforme necessário
   ];

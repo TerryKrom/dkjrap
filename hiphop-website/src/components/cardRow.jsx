@@ -19,7 +19,7 @@ const CardRow = () => {
     <div className="card-row">
       
       {cardsData.map((card, index) => (
-        <MainCard key={index} props={card} index={index} />
+        <MainCard key={index} props={card}/>
       ))}
       
     </div>

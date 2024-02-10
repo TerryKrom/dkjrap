@@ -3,6 +3,7 @@ import Header from '../components/header';
 import { Carousel } from '../components/carousel';
 import Navigation from '../components/navigation';
 import CardRow from '../components/cardRow';
+import Footer from '../components/footer';
 
 const Home = () => {
     return (
@@ -14,7 +15,7 @@ const Home = () => {
                 <Header />
                 <Carousel />
                 <CardRow />
-                
+                <Footer/>
             </div>
         </div>
         
