@@ -63,6 +63,7 @@
 .card-text {
     text-align: justify;
     min-height: 50px;
+    color: var(--secondary-font-color);
 }
 
 .card-date {

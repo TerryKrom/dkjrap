@@ -33,7 +33,7 @@ const MainCardsData = () => {
         date: '06-02-2024',
         img: img04,
         title: 'Novo lançamento na área! "Só os Di Verdade"',
-        text: 'Confira a mais nova música de DKJ RAP no youtube!',
+        text: 'Confira o mais novo lançamento de DKJ RAP no youtube, Deixe seu Like e compartilhe para ajudar!',
         src: 'https://youtube.com/watch?v=y82Jgyrzjy4',
         target: '_blank'
       },
