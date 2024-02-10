@@ -1,7 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './mainCard.css';
 
-const MainCard = ({ props }) => {
+const MainCard = ({ props, index }) => {
+
+    const handleMouseEnter = (element) => {
+        element.classList.add('hover');
+    }
+
+    const handleMouseLeave = (element) => {
+        element.classList.remove('hover');
+    }
 
     const months = {
         1: 'Jan',
@@ -25,15 +34,20 @@ const MainCard = ({ props }) => {
     }
 
     return (
-        <div className="main-card">
-            <img src={props.img} alt={props.title} />
-            <div className="main-card-body">
-                <p className='card-date'>{dateFixer(props.date)}</p>
-                <h2 className='card-title'>{props.title}</h2>
-                <p className='card-text'>{props.text}</p>
-                <a href={props.src}>Confira já!</a>
+        <Link to={props.src}>
+            <div className="main-card" onMouseEnter={(e) => e.currentTarget.classList.add('hover')} onMouseLeave={(e) => e.currentTarget.classList.remove('hover')}>
+                <div className="main-card-img">
+                <img src={props.img} alt={props.title} />
+                
+                </div>
+                <div className="main-card-body">
+                    <p className='card-date'>{dateFixer(props.date)}</p>
+                    <h2 className='card-title'>{props.title}</h2>
+                    <p className='card-text'>{props.text}</p>
+                    <h3>Confira já!</h3>
+                </div>
             </div>
-        </div>
+        </Link>
     );
 }
 

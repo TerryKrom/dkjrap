@@ -6,3 +6,8 @@
     background-color: #ffffff30;
     border-radius: 5px;
 }
+
+a{
+    color: var(--primary-font-color);
+    text-decoration: none;
+}

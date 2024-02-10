@@ -14,6 +14,7 @@ const Home = () => {
                 <Header />
                 <Carousel />
                 <CardRow />
+                
             </div>
         </div>
         

@@ -12,13 +12,20 @@ const CardRow = () => {
   const cardsData = MainCardsData().sort((a, b) => getDate(b.date) - getDate(a.date));
 
   return (
+    <>
+      <div className="title-container">
+        <div className="vertical-line"></div>
+        <h2 className='title'>Noticias</h2>
+      </div>
     <div className="card-row">
       
       {cardsData.map((card, index) => (
-        <MainCard key={index} props={card} />
+        <MainCard key={index} props={card} index={index} />
       ))}
       
     </div>
+    </>
+    
   );
 };
 
