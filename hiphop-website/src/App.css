@@ -11,3 +11,18 @@ a{
     color: var(--primary-font-color);
     text-decoration: none;
 }
+
+.title-container{
+    display: flex;
+    margin: 15px;
+}
+
+.vertical-line{
+    background-color: var(--primary-font-color);
+    width: 3px;
+    height: 100%;
+}
+.title-container .title{
+    font-size: 2rem;
+    text-indent: 5px;
+}

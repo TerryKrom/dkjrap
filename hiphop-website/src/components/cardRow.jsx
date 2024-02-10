@@ -1,7 +1,8 @@
 import React from 'react';
-import './cardRow.css';
 import MainCard from './mainCard';
 import MainCardsData from '../assets/cardData';
+import Title from './global/title';
+import './cardRow.css';
 
 const getDate = (dateString) => {
   const [day, month, year] = dateString.split('-').map(Number);
@@ -13,10 +14,8 @@ const CardRow = () => {
 
   return (
     <>
-      <div className="title-container">
-        <div className="vertical-line"></div>
-        <h2 className='title'>Noticias</h2>
-      </div>
+    <Title text={"Notícias"}/>
+    
     <div className="card-row">
       
       {cardsData.map((card, index) => (
