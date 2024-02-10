@@ -18,7 +18,6 @@
 .react-carousel {
     height: 100%;
     position: relative;
-    max-width: 1400px;
 }
 
 .react-carousel .control-dots .dot {
@@ -107,6 +106,12 @@
     color: var(--primary-font-color);
     line-height: 3rem;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+    .react-carousel .text{
+        left: 20px;
+    }
 }
 
 .react-carousel .text h2{

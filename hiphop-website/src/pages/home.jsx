@@ -6,6 +6,8 @@ import CardRow from '../components/cardRow';
 
 const Home = () => {
     return (
+        <div className="center">
+
         <div className="body-page">
             <Navigation />
             <div className='page'>
@@ -13,6 +15,8 @@ const Home = () => {
                 <Carousel />
                 <CardRow />
             </div>
+        </div>
+        
         </div>
     );
 }

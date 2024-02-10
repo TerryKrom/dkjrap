@@ -59,7 +59,6 @@ const handleMouseLeave = (element) => {
 }
 
 export const Carousel = () => (
-    <div className="center">
     <ReactCarousel
         className="react-carousel"
         showArrows={true}
@@ -89,5 +88,4 @@ export const Carousel = () => (
             </Link>
         ))}
     </ReactCarousel>
-    </div>
-);
+    );

@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './header.css';
 import SongPlayer from './audioPlayer';
@@ -16,26 +16,24 @@ const Header = () => {
         setIsMobile(window.innerWidth < 768);
         // Feche o menu se a tela estiver cheia
         if (!isMobile && isOpen) {
-          setIsOpen(false);
+            setIsOpen(false);
         }
-      };
-    
-      useEffect(() => {
+    };
+
+    useEffect(() => {
         // Adicione um listener de redimensionamento quando o componente montar
         window.addEventListener('resize', handleResize);
-    
+
         // Remova o listener quando o componente desmontar
         return () => {
-          window.removeEventListener('resize', handleResize);
+            window.removeEventListener('resize', handleResize);
         };
-      }, [isOpen, isMobile]);
-    
+    }, [isOpen, isMobile]);
+
 
     return (
         <>
             <header>
-                <div className="center">
-
                 <div className="logo">
                     <h2><Link to='/'>DKJ RAP</Link></h2>
                     <h3>Rap além das Letras</h3>
@@ -48,22 +46,16 @@ const Header = () => {
                     <Link to="https://open.spotify.com/intl-pt/artist/3mek6ZbenYdDKuM2dRwcaI" target='_blank'> <span className="fa-brands fa-spotify"></span> </Link>
                     <Link to="https://facebook.com/DKJrap" target='_blank'> <span className="fa-brands fa-facebook"></span> </Link>
                 </div>
-                <div 
-                className={`burger ${isOpen ? 'm-open':' '}`} onClick={handleBurguer}>
+                <div
+                    className={`burger ${isOpen ? 'm-open' : ' '}`} onClick={handleBurguer}>
                     <div className="burguer-line"></div>
                     <div className="burguer-line"></div>
                     <div className="burguer-line"></div>
                 </div>
-                </div>
-                
             </header>
             <div className="subheader">
-                <div className="center">
-
-                <SongPlayer/>
+                <SongPlayer />
                 <div className="line"></div>
-                </div>
-                
             </div>
             {isOpen ? <Modal isOpen={isOpen} setIsOpen={setIsOpen} /> : ''}
         </>
