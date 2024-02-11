@@ -45,7 +45,7 @@ const MusicContainer = () => {
             <div className="album-container">
                 {albums.map((album, index) => (
                     <div className="album" key={index}>
-                        <Link to={album.src}>
+                        <Link to={album.src} target='_blank'>
                             <img src={album.img} alt={album.title} />
                             <div className="album-text">
                                 <h2>{album.title}</h2>
