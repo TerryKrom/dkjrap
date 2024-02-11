@@ -21,6 +21,16 @@
     position: relative;
 }
 
+@media only screen and (max-width: 768px){
+    .album{
+        margin: 5px !important;
+    }
+    .album-container{
+        justify-content: space-around;
+    }
+}
+
+
 .album img{
     width: 100%;
     height: 100%;
