@@ -9,7 +9,11 @@ import album03 from '../assets/cardImages/album03.png';
 import album04 from '../assets/cardImages/album04.png';
 import album05 from '../assets/cardImages/album05.png';
 
-import img01 from '../assets/cardImages/img02.jpg';
+import img01 from '../assets/cardImages/track01.png';
+import img02 from '../assets/cardImages/track02.png';
+import img03 from '../assets/cardImages/track03.png';
+import img04 from '../assets/cardImages/track04.png';
+import img05 from '../assets/cardImages/track05.png';
 
 const MusicContainer = () => {
 
@@ -43,40 +47,41 @@ const MusicContainer = () => {
 
     const songs = [
         {
-            title: 'O Veneno da Serpente',
+            title: 'Desacredita Não',
             desc: 'lorem ipsum dolor si amet',
             img: img01,
             lyricSrc: '',
             src: '',
         },
         {
-            title: 'O Veneno da Serpente',
+            title: 'Questão de Tempo',
             desc: 'lorem ipsum dolor si amet',
-            img: img01,
+            img: img02,
+            lyricSrc: '',
+            src: '',
+        },
+        {
+            title: 'Nada Anda Bem',
+            desc: 'lorem ipsum dolor si amet',
+            img: img03,
+            lyricSrc: '',
+            src: '',
+        },
+        {
+            title: 'Sensor Contra Zoião',
+            desc: 'lorem ipsum dolor si amet',
+            img: img04,
             lyricSrc: '',
             src: '',
         },
         {
             title: 'O Veneno da Serpente',
             desc: 'lorem ipsum dolor si amet',
-            img: img01,
+            img: img05,
             lyricSrc: '',
             src: '',
         },
-        {
-            title: 'O Veneno da Serpente',
-            desc: 'lorem ipsum dolor si amet',
-            img: img01,
-            lyricSrc: '',
-            src: '',
-        },
-        {
-            title: 'O Veneno da Serpente',
-            desc: 'lorem ipsum dolor si amet',
-            img: img01,
-            lyricSrc: '',
-            src: '',
-        },
+        
         {
             title: 'O Veneno da Serpente',
             desc: 'lorem ipsum dolor si amet',
