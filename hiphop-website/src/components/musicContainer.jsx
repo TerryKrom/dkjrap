@@ -3,17 +3,17 @@ import Title from './global/title';
 import './musicContainer.css';
 import { Link } from 'react-router-dom';
 
-import album01 from '../assets/cardImages/album01.png';
-import album02 from '../assets/cardImages/album02.png';
-import album03 from '../assets/cardImages/album03.png';
-import album04 from '../assets/cardImages/album04.png';
-import album05 from '../assets/cardImages/album05.png';
+import album01 from '../assets/albumCovers/album01.png';
+import album02 from '../assets/albumCovers/album02.png';
+import album03 from '../assets/albumCovers/album03.png';
+import album04 from '../assets/albumCovers/album04.png';
+import album05 from '../assets/albumCovers/album05.png';
 
-import img01 from '../assets/cardImages/track01.png';
-import img02 from '../assets/cardImages/track02.png';
-import img03 from '../assets/cardImages/track03.png';
-import img04 from '../assets/cardImages/track04.png';
-import img05 from '../assets/cardImages/track05.png';
+import img01 from '../assets/trackCovers/track01.png';
+import img02 from '../assets/trackCovers/track02.png';
+import img03 from '../assets/trackCovers/track03.png';
+import img04 from '../assets/trackCovers/track04.png';
+import img05 from '../assets/trackCovers/track05.png';
 
 const MusicContainer = () => {
 
