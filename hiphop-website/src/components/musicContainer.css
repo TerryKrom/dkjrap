@@ -65,9 +65,16 @@
     background-color: #101010;
 }
 
+@media only screen and (max-width: 768px){
+    .music-card{
+        width: 400px;
+    }
+}
+
 .music-card img{
-    height: 95%;
+    height: 90%;
     margin: 5px;
+    width: 50%;
 }
 
 .music-card-text{
@@ -76,7 +83,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    width: 100%;
+    width: 50%;
 }
 
 .music-card-text h2, .music-card-text h3, .music-card-text a{
