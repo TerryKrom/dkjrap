@@ -1,10 +1,10 @@
-
 .album-container{
     margin: 10px 15px 20px 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .album{
