@@ -1,8 +1,3 @@
-.music-container{
-    height: 250px;
-    margin: 10px 15px 20px 15px;
-    border: 1px solid #fff;
-}
 
 .album-container{
     margin: 10px 15px 20px 5px;
@@ -51,4 +46,43 @@
 
 .album:hover .album-text{
     opacity: 1;
+}
+
+.music-container{
+    margin: 10px 15px 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.music-card{
+    width: 550px;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+    background-color: #101010;
+}
+
+.music-card img{
+    height: 95%;
+    margin: 5px;
+}
+
+.music-card-text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.music-card-text h2, .music-card-text h3, .music-card-text a{
+    margin-left: 5px;
+}
+
+.music-card-text h3{
+    color: var(--secondary-font-color);
 }
