@@ -3,11 +3,11 @@ import Title from './global/title';
 import { Link } from 'react-router-dom';
 import MusicData from '../data/musicData';
 
-import album01 from '../assets/albumCovers/album01.png';
+import album05 from '../assets/albumCovers/album01.png';
 import album02 from '../assets/albumCovers/album02.png';
 import album03 from '../assets/albumCovers/album03.png';
 import album04 from '../assets/albumCovers/album04.png';
-import album05 from '../assets/albumCovers/album05.png';
+import album01 from '../assets/albumCovers/album05.png';
 import './musicContainer.css';
 
 
