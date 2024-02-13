@@ -9,6 +9,7 @@ import Footer from '../components/footer';
 import image1 from "../assets/banners/banner01.png";
 import image2 from '../assets/banners/banner02.png';
 import image3 from '../assets/banners/banner03.png';
+import image4 from '../assets/banners/banner05.png';
 
 const Home = () => {
 
@@ -33,8 +34,14 @@ const Home = () => {
             subtitle: "Confira já",
             image: image3,
             src: 'https://open.spotify.com/intl-pt/artist/3mek6ZbenYdDKuM2dRwcaI',
-            target: '_blank'
-    
+            target: '_blank'    
+        },
+        {
+            title: "A história completa de DKJ RAP",
+            subtitle: "Ver Mais",
+            image: image4,
+            src: '/sobre',
+            target: ''
         },
     ];
     

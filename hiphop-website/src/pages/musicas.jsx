@@ -28,7 +28,8 @@ const Musicas = () => {
                     <Carousel
                         slides={slides}
                         arrows={false}
-                        indicators={false} />
+                        indicators={false} 
+                    />
                         <MusicContainer />
                     <Footer />
                 </div>
