@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/header';
 import Navigation from '../components/navigation';
 import Footer from '../components/footer';
-import banner from '../assets/banners/banner01.png';
+import banner from '../assets/banners/banner04.png';
 import { Carousel } from '../components/carousel';
 import MusicContainer from '../components/musicContainer';
 
