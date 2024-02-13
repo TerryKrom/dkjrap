@@ -22,7 +22,7 @@ section.bottom {
 
 section.top .links {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin-bottom: 20px;
 }
@@ -38,6 +38,15 @@ section.top .links {
     width: fit-content;
 }
 
+@media only screen and (max-width: 400px){
+    .links-column a{
+        width: auto;
+    }
+    section .social-links{
+        max-width: 200px;
+        margin: auto;
+    }
+}
 
 section h2 {
     margin: 0 0 10px;

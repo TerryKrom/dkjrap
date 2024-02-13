@@ -93,6 +93,12 @@ header .social-links a{
     right: 20px;
 }
 
+@media (width < 450px){
+    .burger{
+        position: fixed !important;
+    }
+}
+
 .burger.m-open div:first-child {
     transform: translateY(6px) rotate(45deg);
 }
