@@ -40,6 +40,8 @@ const Header = () => {
                     <h3>Rap além das Letras</h3>
                 </div>
                 <div className="separator"></div>
+                <div className="flex">
+
                 <SocialLinks/>
                 <div
                     className={`burger ${isOpen ? 'm-open' : ' '}`} onClick={handleBurguer}>
@@ -47,6 +49,8 @@ const Header = () => {
                     <div className="burguer-line"></div>
                     <div className="burguer-line"></div>
                 </div>
+                </div>
+                
             </header>
             <div className="subheader">
                 <SongPlayer />

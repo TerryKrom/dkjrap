@@ -7,6 +7,13 @@ header {
     background-color: var(--header-color);
 }
 
+.flex {
+    position: relative;
+    flex: 1;
+    display: block;
+}
+
+
 header div {
     height: 100%;
 }
@@ -16,6 +23,7 @@ header div {
     justify-content: flex-start;
     align-items: center;
     /* border: 1px solid var(--primary-font-color); */
+    flex: 2;
 }
 
 .logo h3 {
@@ -66,7 +74,7 @@ header div {
     transition: 0.1s linear;
 }
 
-header .social-links a{
+header .social-links a {
     margin: 0px 20px;
 }
 
@@ -93,9 +101,15 @@ header .social-links a{
     right: 20px;
 }
 
-@media (width < 450px){
-    .burger{
-        position: fixed !important;
+@media (width < 400px) {
+    .flex {
+        margin-right: 20px;
+    }
+}
+
+@media (width < 450px) {
+    .flex {
+        flex: 0;
     }
 }
 
