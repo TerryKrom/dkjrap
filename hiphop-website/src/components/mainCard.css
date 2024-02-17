@@ -55,6 +55,7 @@
 
 .main-card-body h2 {
     font-size: 1.6rem;
+    min-height: 55px;
 }
 
 .card-text {
