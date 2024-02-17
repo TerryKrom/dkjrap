@@ -10,7 +10,7 @@ const Musicas = () => {
 
     const slides = [
         {
-            title: "A carreira completa de DKJ RAP num só lugar!",
+            title: "A carreira completa de DKJ RAP",
             subtitle: "",
             image: banner,
             src: '',
