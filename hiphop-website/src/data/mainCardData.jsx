@@ -1,3 +1,4 @@
+// mainCard
 import img01 from '../assets/cardImages/img01.jpg';
 import img02 from '../assets/cardImages/img02.jpg';
 import img03 from '../assets/cardImages/img03.jpg';

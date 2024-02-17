@@ -1,0 +1,29 @@
+.event-card{
+    width: 48%;
+    min-height: 350px;
+    margin: 10px;
+    background-color: var(--header-color);
+}
+
+@media only screen and (max-width: 1120px){
+    .event-card{
+        width: 98% !important;
+    }
+}
+
+.event-card div{
+    margin: 10px;
+}
+
+.event-card img{
+    width: 100%;    
+}
+
+.event-card-text p{
+    line-height: 1.6rem;
+    color: var(--secondary-font-color);
+}
+
+.event-card-text h2{
+    font-size: 1.6rem;
+}

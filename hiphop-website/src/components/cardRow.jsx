@@ -1,6 +1,6 @@
 import React from 'react';
 import MainCard from './mainCard';
-import MainCardsData from '../data/cardData';
+import MainCardsData from '../data/mainCardData';
 import Title from './global/title';
 import './cardRow.css';
 
