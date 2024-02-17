@@ -17,6 +17,7 @@
 
 .event-card img{
     width: 100%;    
+    min-height: 225px;
 }
 
 .event-card-text p{

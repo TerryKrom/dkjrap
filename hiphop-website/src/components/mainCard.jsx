@@ -26,13 +26,13 @@ const MainCard = ({ props }) => {
     }
 
     return (
-        <Link to={props.src} target={props.target}>
             <div className="main-card"
                 onMouseEnter={(e) => e.currentTarget.classList.add('hover')}
                 onMouseLeave={(e) => e.currentTarget.classList.remove('hover')}>
+                    <Link to={props.src} target={props.target}>
+        
                 <div className="main-card-img">
                     <img src={props.img} alt={props.title} />
-
                 </div>
                 <div className="main-card-body">
                     <p className='card-date'>{dateFixer(props.date)}</p>
@@ -40,8 +40,8 @@ const MainCard = ({ props }) => {
                     <p className='card-text'>{props.text}</p>
                     <h3>Confira já!</h3>
                 </div>
+                </Link>
             </div>
-        </Link>
     );
 }
 
