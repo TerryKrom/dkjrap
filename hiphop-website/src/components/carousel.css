@@ -121,10 +121,6 @@
         margin-bottom: 10px;
 }
 
-.text h3{
-    height: 30px;
-}
-
 @media only screen and (max-width:620px){
     .react-carousel, .react-carousel-slide{
         height: 300px;
