@@ -21,7 +21,9 @@ const EventCard = ({ card, index }) => {
                 <p>{card.story}</p>
                 {isVisible
                     ?
-                    <Link to={card.src} className='event-card-link'>Assistir</Link>
+                    <Link to={card.src} className='event-card-link'>
+                        Ver Mais 
+                    </Link>
                     :
                     ''}
             </div>

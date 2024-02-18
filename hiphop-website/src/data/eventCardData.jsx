@@ -11,7 +11,7 @@ const EventCardData = () => {
       story: 'Show realizado no Jardim Elba, na zona leste de São Paulo, por DKJ RAP no dia 4 de setembro de 2011',
       date: '2011',
       local: 'Zona Leste - SP',
-      src: '#',
+      src: 'https://www.facebook.com/DKJrap',
     },
     {
       img: img02,

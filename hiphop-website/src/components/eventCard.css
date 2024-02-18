@@ -1,6 +1,6 @@
 .event-card{
     width: 48%;
-    min-height: 350px;
+    min-height: 430px;
     margin: 10px;
     background-color: var(--header-color);
 }
@@ -32,6 +32,7 @@
     min-height: 75px;
     max-height: 75px;
 }
+
 .event-card-text h2{
     font-size: 1.6rem;
 }
@@ -44,4 +45,10 @@
     position: absolute;
     top: 5px;
     right: 5px;
+    color: var(--secondary-font-color);
+    padding: 3px 5px 3px 5px;
+}
+
+.event-card-link:hover{
+    color: var(--primary-font-color);
 }
