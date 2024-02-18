@@ -23,6 +23,7 @@
 .event-card-text p{
     line-height: 1.6rem;
     color: var(--secondary-font-color);
+    font-size: 1.05rem;
 }
 
 .event-card-text h2{

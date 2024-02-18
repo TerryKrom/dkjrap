@@ -13,7 +13,7 @@ const EventContainer = () => {
             <Title text={'Shows'} />
             <div className="event-container">
                 {events.map((card, index) => (
-                    <EventCard card={card} index={index}/>
+                    <EventCard card={card} index={index} key={index}/>
                 ))}
             </div>
         </>
