@@ -19,6 +19,10 @@ const Sobre = () => {
     ]
 
     return (
+
+        <div className="center">
+
+        
         <div className="body-page">
             <Navigation />
             <div className='page'>
@@ -33,6 +37,9 @@ const Sobre = () => {
                 <Footer />
             </div>
         </div>
+
+        </div>
+
     );
 }
 

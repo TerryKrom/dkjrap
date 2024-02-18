@@ -17,6 +17,10 @@ const Shows = () => {
         },
     ]
     return (
+
+        <div className="center">
+
+        
         <div className="body-page">
             <Navigation />
             <div className='page'>
@@ -31,6 +35,9 @@ const Shows = () => {
 
             </div>
         </div>
+
+        </div>
+
     );
 }
 
