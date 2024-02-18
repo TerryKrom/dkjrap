@@ -18,6 +18,7 @@
 .event-card img{
     width: 100%;    
     min-height: 225px;
+    max-height: 225px;
 }
 
 .event-card-text p{
@@ -26,6 +27,11 @@
     font-size: 1.05rem;
 }
 
+
+.event-card-text p:nth-last-child(1){
+    min-height: 75px;
+    max-height: 75px;
+}
 .event-card-text h2{
     font-size: 1.6rem;
 }
