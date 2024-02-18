@@ -9,7 +9,7 @@ const EventCardData = () => {
       img: img01,
       title: 'Jardim Elba - Zona Leste',
       story: 'Show realizado no Jardim Elba, na zona leste de São Paulo, por DKJ RAP no dia 4 de setembro de 2011',
-      date: '04-09-11',
+      date: '2011',
       local: 'Zona Leste - SP',
       src: '#',
     },

@@ -35,3 +35,13 @@
 .event-card-text h2{
     font-size: 1.6rem;
 }
+
+.event-card-text{
+    position: relative;
+}
+
+.event-card-link{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}

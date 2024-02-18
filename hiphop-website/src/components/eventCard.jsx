@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './eventCard.css';
+import { Link } from 'react-router-dom';
 
-const EventCard = ( {card, index} ) => {
-    return (  
+const EventCard = ({ card, index }) => {
+    const [isVisible, setIsVisible] = useState(false);
+    useEffect(() => {
+        if (card.src) {
+            setIsVisible(true)
+        }
+    }, [card])
+    return (
         <div className="event-card" key={index}>
             <div className="event-card-img">
                 <img src={card.img} alt={card.title} />
@@ -12,9 +19,14 @@ const EventCard = ( {card, index} ) => {
                 <p>Data: {card.date}</p>
                 <p>Local: {card.local}</p>
                 <p>{card.story}</p>
+                {isVisible
+                    ?
+                    <Link to={card.src} className='event-card-link'>Assistir</Link>
+                    :
+                    ''}
             </div>
         </div>
     );
 }
- 
+
 export default EventCard;
