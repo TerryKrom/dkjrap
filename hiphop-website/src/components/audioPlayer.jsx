@@ -72,7 +72,7 @@ const SongPlayer = () => {
         onEnded={handleTrackEnd}
       />
       <button onClick={handleToggleMute}>
-        <span className={`fa ${isMuted ? 'fa-volume-high' : 'fa-volume-xmark'}`}></span>
+        <span className={`fa ${isMuted ? 'fa-volume-xmark' : 'fa-volume-high'}`}></span>
       </button>
       <button onClick={() => handlePreviousTrack(document.querySelector('audio'))} className={`${currentTrackIndex >= 1 ? '' : 'disabled'}`}>
         <span className='fa fa-backward-step'></span>

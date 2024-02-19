@@ -6,3 +6,9 @@
     font-size: 1.2rem;
     line-height: 2rem;
 }
+
+.about-container img{
+    width: 23%;
+    margin: 10px;
+    aspect-ratio: 3/3;
+}

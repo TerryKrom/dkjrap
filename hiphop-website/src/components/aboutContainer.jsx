@@ -1,6 +1,10 @@
 import React from 'react';
 import './aboutContainer.css';
 import Title from './global/title';
+import img01 from '../assets/dexter.jpg';
+import img02 from '../assets/dexter2.jpg';
+import img03 from '../assets/reportagem.jpg';
+import img04 from '../assets/naldinho.jpg';
 
 const AboutContainer = () => {
     return (  
@@ -12,6 +16,13 @@ const AboutContainer = () => {
                 Para contratações e informações, entre em contato com o rapper pelo e-mail dkjrapnacional@gmail.com.
                 </p>
             </div>
+        {/* <Title text={'Imagens'} />
+            <div className="about-container">
+                <img src={img01} alt="" />
+                <img src={img02} alt="" />
+                <img src={img03} alt="" />
+                <img src={img04} alt="" />
+            </div> */}
         </>
     );
 }
