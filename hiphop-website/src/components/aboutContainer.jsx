@@ -1,10 +1,16 @@
 import React from 'react';
 import './aboutContainer.css';
 import Title from './global/title';
-import img01 from '../assets/dexter.jpg';
-import img02 from '../assets/dexter2.jpg';
-import img03 from '../assets/reportagem.jpg';
-import img04 from '../assets/naldinho.jpg';
+
+import img01 from '../assets/images/dexter.jpg';
+import img02 from '../assets/images/dexter2.jpg';
+import img03 from '../assets/images/reportagem.jpg';
+import img04 from '../assets/images/naldinho.jpg';
+
+import img05 from '../assets/images/cd.jpg';
+import img06 from '../assets/images/4.jpg';
+import img07 from '../assets/images/chrigor.jpg';
+import img08 from '../assets/images/gavioes.jpg';
 
 const AboutContainer = () => {
     return (  
@@ -22,6 +28,12 @@ const AboutContainer = () => {
                 <img src={img02} alt="" />
                 <img src={img03} alt="" />
                 <img src={img04} alt="" />
+            </div>
+            <div className="image-container">
+                <img src={img05} alt="" />
+                <img src={img06} alt="" />
+                <img src={img07} alt="" />
+                <img src={img08} alt="" />
             </div>
         </>
     );
