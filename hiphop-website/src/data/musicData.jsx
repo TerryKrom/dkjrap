@@ -6,6 +6,8 @@ import img05 from '../assets/trackCovers/track05.png';
 import img06 from '../assets/trackCovers/track06.png';
 import img07 from '../assets/trackCovers/track07.png';
 import img08 from '../assets/trackCovers/track08.png';
+import img09 from '../assets/trackCovers/track09.png';
+import img10 from '../assets/trackCovers/track10.png';
 
 const MusicData = () => {
     const musicData = [
@@ -44,7 +46,6 @@ const MusicData = () => {
             img: img05,
             src: 'https://www.youtube.com/watch?v=6GJUPvXF9A0',
         },
-
         {
             title: 'Em suas Mãos',
             year: 2023,
@@ -65,6 +66,20 @@ const MusicData = () => {
             album: 'Singles',
             img: img08,
             src: 'https://www.youtube.com/watch?v=97FHIMvDQ1k',
+        },
+        {
+            title: 'Tem que Saber Viver',
+            year: 2012,
+            album: 'Singles',
+            img: img09,
+            src: 'https://www.youtube.com/watch?v=jNZ22HLWtac',
+        },
+        {
+            title: 'Tempestade',
+            year: 2013,
+            album: 'Singles',
+            img: img10,
+            src: 'https://www.youtube.com/watch?v=MbIi0YdWv8g',
         },
     ]
 
