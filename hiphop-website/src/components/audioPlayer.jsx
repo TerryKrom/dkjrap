@@ -9,9 +9,13 @@ import song4 from '../assets/tracks/o-veneno-da-serpente-dkj.mp3'
 import song5 from '../assets/tracks/bons-ventos-dkj.mp3';
 import song6 from '../assets/tracks/eu-imploro-dkj.mp3';
 import song7 from '../assets/tracks/nois-e-disciplina-dkj.mp3';
+import song8 from '../assets/tracks/quem-traiu-caiu.mp3';
+import song9 from '../assets/tracks/tem-que-saber-viver.mp3';
+import song10 from '../assets/tracks/dor-e-sofrimento.mp3';
 
 const SongPlayer = () => {
   const [tracks] = useState([
+    { src: song10, title: 'Dor e Sofrimento - DKJ RAP' },
     { src: song1, title: 'Rap Além das Letras - DKJ RAP' },
     { src: song2, title: 'Guarda o Sorriso - DKJ RAP' },
     { src: song3, title: 'Velas e Oração - DKJ RAP' },
@@ -19,6 +23,8 @@ const SongPlayer = () => {
     { src: song5, title: 'Bons Ventos - DKJ RAP' },
     { src: song6, title: 'Eu Imploro - DKJ RAP' },
     { src: song7, title: 'Nois é Disciplina - DKJ RAP' },
+    { src: song8, title: 'Quem Traiu Caiu AO VIVO - DKJ RAP' },
+    { src: song9, title: 'Tem Que Saber Viver AO VIVO - DKJ RAP' },
   ]);
 
   const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
