@@ -7,7 +7,7 @@ import img02 from '../assets/images/dexter2.jpg';
 import img03 from '../assets/images/reportagem.jpg';
 import img04 from '../assets/images/naldinho.jpg';
 
-import img05 from '../assets/images/cd.jpg';
+import img05 from '../assets/images/kids.jpg';
 import img06 from '../assets/images/4.jpg';
 import img07 from '../assets/images/chrigor.jpg';
 import img08 from '../assets/images/gavioes.jpg';
