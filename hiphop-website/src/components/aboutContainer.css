@@ -1,5 +1,9 @@
-.about-container{
+.about-container, .image-container{
     margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .about-container p{
@@ -7,8 +11,21 @@
     line-height: 2rem;
 }
 
-.about-container img{
-    width: 23%;
+.image-container img{
     margin: 10px;
     aspect-ratio: 3/3;
+    max-width: 400px;
+    min-width: 250px;
+    width: 23%;
+    overflow: hidden;
+}
+
+.image-container{
+    background-color: var(--header-color);
+}
+
+@media only screen and (max-width: 540px){
+    .image-container img{
+        width: 100%;
+    }
 }

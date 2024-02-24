@@ -16,13 +16,13 @@ const AboutContainer = () => {
                 Para contratações e informações, entre em contato com o rapper pelo e-mail dkjrapnacional@gmail.com.
                 </p>
             </div>
-        {/* <Title text={'Imagens'} />
-            <div className="about-container">
+        <Title text={'Imagens'} />
+            <div className="image-container">
                 <img src={img01} alt="" />
                 <img src={img02} alt="" />
                 <img src={img03} alt="" />
                 <img src={img04} alt="" />
-            </div> */}
+            </div>
         </>
     );
 }

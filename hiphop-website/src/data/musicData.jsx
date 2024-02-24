@@ -60,11 +60,11 @@ const MusicData = () => {
             src: 'https://www.youtube.com/watch?v=U1yOn9iQvv8',
         },
         {
-            title: 'Regeneração de Um Homem part. MC Kazuya',
-            year: 2013,
+            title: 'Nunca Mais Sorriu Feat Nega Chell',
+            year: 2015,
             album: 'Singles',
             img: img08,
-            src: 'https://www.youtube.com/watch?v=h_GwkJEPGK8',
+            src: 'https://www.youtube.com/watch?v=97FHIMvDQ1k',
         },
     ]
 
