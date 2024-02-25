@@ -3,21 +3,20 @@ import Title from './global/title';
 import { Link } from 'react-router-dom';
 import MusicData from '../data/musicData';
 
-import album05 from '../assets/albumCovers/album01.png';
+import album01 from '../assets/albumCovers/album01.png';
 import album02 from '../assets/albumCovers/album02.png';
 import album03 from '../assets/albumCovers/album03.png';
 import album04 from '../assets/albumCovers/album04.png';
-import album01 from '../assets/albumCovers/album05.png';
+import album05 from '../assets/albumCovers/album05.png';
 import './musicContainer.css';
-
 
 const MusicContainer = () => {
 
     const albums = [
         {
-            img: album05,
-            title: 'Sobrevivente',
-            src: 'https://www.youtube.com/watch?v=iwE_rMhACAM',
+            img: album01,
+            title: 'Sou Quem Sou',
+            src: 'https://www.youtube.com/watch?v=OrKIaXcy8ro&t=5s',
         },
         {
             img: album02,
@@ -30,14 +29,14 @@ const MusicContainer = () => {
             src: 'https://youtube.com/watch?v=GiJr-a0pmlA',
         },
         {
-            img: album01,
-            title: 'Liga todo Mundo',
-            src: 'https://youtube.com/watch?v=e5P9qX-YOGc',
-        },
-        {
             img: album04,
             title: 'Nois é Disciplina Part Chrigor',
             src: 'https://youtube.com/watch?v=v_cPc3DjBag',
+        },
+        {
+            img: album05,
+            title: 'Liga todo Mundo',
+            src: 'https://youtube.com/watch?v=e5P9qX-YOGc',
         },
     ]
 
