@@ -13,21 +13,21 @@ const MusicData = () => {
     const musicData = [
         {
             title: 'Desacredita Não',
-            year: 2024,
+            year: 2022,
             album: 'Sobrevivente',
             img: img01,
             src: 'https://www.youtube.com/watch?v=1-Ra4krMbCA',
         },
         {
             title: 'Questão de Tempo',
-            year: 2024,
+            year: 2021,
             album: 'Sobrevivente',
             img: img02,
             src: 'https://www.youtube.com/watch?v=H_xTd531ITY&t=14s',
         },
         {
             title: 'Nada Anda Bem',
-            year: 2024,
+            year: 2021,
             album: 'Sobrevivente',
             img: img03,
             src: 'https://www.youtube.com/watch?v=eZchBbnONAM',
@@ -48,7 +48,7 @@ const MusicData = () => {
         },
         {
             title: 'Em suas Mãos',
-            year: 2023,
+            year: 2012,
             album: 'DKJ RAP 20 Anos',
             img: img06,
             src: 'https://www.youtube.com/watch?v=6FsMTqhbeMw',
